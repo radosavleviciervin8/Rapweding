@@ -1,0 +1,8 @@
+{
+  "name": "Wedding Rap Style Studio",
+  "description": "WEDDING RAP STYLE — Private Asset Studio. Founder: Ervin Remus Radosavlevici.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

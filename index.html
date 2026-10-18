@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Rap Style Studio</title>
+  <meta name="description" content="WEDDING RAP STYLE — Private Asset Studio. Founder: Ervin Remus Radosavlevici.">
+  <meta property="og:title" content="Wedding Rap Style Studio">
+  <meta property="og:description" content="WEDDING RAP STYLE — Private Asset Studio. Founder: Ervin Remus Radosavlevici.">
+  
+  <style>
+    :root {
+      --bg: #09090c;
+      --card-bg: #121218;
+      --card-border: #23232c;
+      --gold: #d4af37;
+      --gold-light: #f5e7b2;
+      --gold-dark: #8f7422;
+      --text: #f4f4f7;
+      --text-muted: #9c9ca8;
+      --accent: #1e1b2e;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      background-color: #09090c;
+      color: #f4f4f7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--card-border);
+      background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.15) 0%, transparent 75%);
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    .crest {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 68px;
+      height: 68px;
+      border: 2px solid var(--gold);
+      border-radius: 50%;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+    }
+    .crest-text {
+      font-weight: 900;
+      font-size: 1.35rem;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+    }
+    .studio-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: var(--gold);
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      background: rgba(212, 175, 55, 0.08);
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+    .founder-credit {
+      font-size: 1.1rem;
+      color: var(--gold-light);
+      letter-spacing: 0.06em;
+      font-weight: 500;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--card-border), transparent);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      border-color: var(--gold-dark);
+      transform: translateY(-2px);
+    }
+    .card-badge {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      background: rgba(212, 175, 55, 0.1);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.925rem;
+      margin-bottom: 1.25rem;
+    }
+    .record-ref {
+      font-family: ui-monospace, monospace;
+      font-size: 0.85rem;
+      color: var(--gold-light);
+      background: rgba(0, 0, 0, 0.4);
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      margin-bottom: 1.25rem;
+      display: block;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+      color: #000000;
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: filter 0.2s;
+    }
+    .btn:hover {
+      filter: brightness(1.15);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--gold-light);
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover {
+      border-color: var(--gold);
+      background: rgba(212, 175, 55, 0.05);
+    }
+    .asset-viewer {
+      background: #0d0d12;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 3rem;
+    }
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+    label {
+      display: block;
+      font-size: 0.825rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    input, textarea, select {
+      width: 100%;
+      background: #14141c;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cert-box {
+      border: 1px solid var(--gold-dark);
+      background: linear-gradient(145deg, #18181f 0%, #101015 100%);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.08);
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.75rem;
+      color: #4ade80;
+    }
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #4ade80;
+    }
+    .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #60a5fa;
+      background: rgba(96, 165, 250, 0.1);
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
+      border: 1px solid rgba(96, 165, 250, 0.2);
+    }
+    .runway-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #c084fc;
+      background: rgba(192, 132, 252, 0.1);
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
+      border: 1px solid rgba(192, 132, 252, 0.2);
+    }
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    .output-pre {
+      background: #000;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      font-family: ui-monospace, monospace;
+      font-size: 0.875rem;
+      color: #f1f5f9;
+      white-space: pre-wrap;
+      line-height: 1.7;
+      max-height: 480px;
+      overflow-y: auto;
+    }
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(0,0,0,0.3);
+      border-radius: 50%;
+      border-top-color: #000;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .progress-bar-container {
+      width: 100%;
+      height: 8px;
+      background: #1c1c24;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #c084fc, #d4af37);
+      transition: width 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="crest">
+      <span class="crest-text">WRS</span>
+    </div>
+    <br>
+    <span class="studio-tag">Private Asset Studio</span>
+    <h1>WEDDING RAP STYLE</h1>
+    <p class="founder-credit">Founder: Ervin Remus Radosavlevici</p>
+  </header>
+
+  <main>
+    <!-- Runway API Motion Video Section -->
+    <section class="asset-viewer">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h2 class="section-title" style="margin-bottom: 0;">Runway Gen-3/4 Video Studio</h2>
+        <span class="runway-badge">&bull; Runway Video API</span>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">
+        Generate luxury cinematic wedding entrance visuals, slow-motion rap performance reels, and projection backdrops via the host Runway API.
+      </p>
+
+      <form id="runway-form" onsubmit="generateRunwayVideo(event)">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+          <div class="form-group">
+            <label for="runway-model">Runway Model</label>
+            <select id="runway-model">
+              <option value="gen3a_turbo">Gen-3 Alpha Turbo (High Speed)</option>
+              <option value="gen3a">Gen-3 Alpha (Ultra Fidelity)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="runway-ratio">Aspect Ratio</label>
+            <select id="runway-ratio">
+              <option value="16:9">16:9 (Landscape Stage / Projection)</option>
+              <option value="9:16">9:16 (Vertical Mobile Reel / Social)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="runway-duration">Clip Duration</label>
+            <select id="runway-duration">
+              <option value="5">5 Seconds</option>
+              <option value="10">10 Seconds</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="runway-prompt">Visual Direction &amp; Cinematic Style Prompt</label>
+          <textarea id="runway-prompt" rows="3" placeholder="Describe the scene...">Cinematic slow-motion wedding entrance in opulent golden ballroom, bride and groom walking down aisle under amber chandeliers, warm bokeh, confetti falling gently, 35mm film texture, luxury wedding music video aesthetic, 4k.</textarea>
+        </div>
+
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+          <button type="submit" id="runway-btn" class="btn">
+            <span>Render Runway Visual Asset</span>
+          </button>
+          <span id="runway-status-label" style="font-size: 0.85rem; color: #c084fc;"></span>
+        </div>
+      </form>
+
+      <!-- Runway Progress & Video Player -->
+      <div id="runway-result-container" style="display: none; margin-top: 1.75rem; border-top: 1px solid var(--card-border); padding-top: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+          <h3 id="runway-task-title" style="font-size: 1.1rem; color: #f5e7b2;">Processing Motion Asset...</h3>
+          <span id="runway-task-status" class="status-pill"><span class="status-dot"></span> Generating</span>
+        </div>
+
+        <div class="progress-bar-container">
+          <div id="runway-progress-bar" class="progress-bar-fill"></div>
+        </div>
+        <div id="runway-progress-text" style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.25rem;">0% complete</div>
+
+        <div id="runway-video-wrapper" style="display: none;">
+          <video id="runway-video-player" controls autoplay loop playsinline style="width: 100%; max-height: 440px; border-radius: 8px; border: 1px solid var(--gold-dark); background: #000;"></video>
+          <div style="margin-top: 1rem; display: flex; gap: 0.75rem;">
+            <a id="runway-download-link" href="#" download="WRS_Runway_Asset.mp4" class="btn" style="padding: 0.5rem 1rem; font-size: 0.825rem;">Download MP4 Asset</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gemini AI Lyrical Mastermind Section -->
+    <section class="asset-viewer">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h2 class="section-title" style="margin-bottom: 0;">Gemini AI Wedding Rap Generator</h2>
+        <span class="ai-badge">&bull; Powered by Gemini 3.8 Flash</span>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">
+        Generate bespoke, customized wedding rap masterpieces, beat flow blueprints, and vocal cadence arrangements for any couple.
+      </p>
+
+      <form id="gemini-rap-form" onsubmit="generateWeddingRap(event)">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+          <div class="form-group">
+            <label for="ai-couple">Couple / Commission Names</label>
+            <input type="text" id="ai-couple" placeholder="e.g. Maya &amp; Jordan" value="Maya &amp; Jordan" required>
+          </div>
+          <div class="form-group">
+            <label for="ai-style">Rap Flow Style</label>
+            <select id="ai-style">
+              <option value="90s Golden Era Romance Boom-Bap">90s Golden Era Romance Boom-Bap</option>
+              <option value="Modern Melodic Trap Ballad">Modern Melodic Trap Ballad</option>
+              <option value="Luxury Orchestral Hip-Hop Anthem">Luxury Orchestral Hip-Hop Anthem</option>
+              <option value="Upbeat Reception Entrance Hype Flow">Upbeat Reception Entrance Hype Flow</option>
+              <option value="Smooth West Coast Warm G-Funk">Smooth West Coast Warm G-Funk</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="ai-bpm">Cadence / Tempo</label>
+            <input type="text" id="ai-bpm" value="92 BPM (Mid-tempo swing)" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="ai-story">Love Story, Inside Jokes &amp; Key Highlights</label>
+          <textarea id="ai-story" rows="3" placeholder="How they met, favorite trips, endearing habits, inside jokes, and what they mean to each other...">Met at an open mic night in Chicago 6 years ago. Traveled through Japan getting lost in Tokyo together. She loves his terrible cooking jokes, he loves her fiery ambition. Their dog Benny is the ring bearer today.</textarea>
+        </div>
+
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+          <button type="submit" id="ai-submit-btn" class="btn">
+            <span>Compose Bespoke Wedding Rap</span>
+          </button>
+          <span id="ai-status-text" style="font-size: 0.85rem; color: var(--gold-light);"></span>
+        </div>
+      </form>
+
+      <!-- AI Generation Result Output -->
+      <div id="ai-result-container" style="display: none; margin-top: 2rem; border-top: 1px solid var(--card-border); padding-top: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h3 style="font-size: 1.15rem; color: var(--gold-light);">Studio Master Blueprint &amp; Lyrics</h3>
+          <div style="display: flex; gap: 0.5rem;">
+            <button onclick="copyRapLyrics()" class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Copy Lyrics</button>
+            <button onclick="exportAsHTML()" class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Export HTML Record</button>
+          </div>
+        </div>
+        <div id="ai-lyrics-output" class="output-pre"></div>
+      </div>
+    </section>
+
+    <!-- Verified Asset Records Section -->
+    <section>
+      <h2 class="section-title">Verified Asset Records</h2>
+      <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.5rem;">
+        Private studio asset records maintained in pure HTML format, verified under Founder Ervin Remus Radosavlevici.
+      </p>
+
+      <div class="grid">
+        <!-- Asset 001 Card -->
+        <article class="card">
+          <span class="card-badge">Record Format: Pure HTML</span>
+          <h3>Private Asset 001</h3>
+          <p>Initial private studio baseline archive entry and registered project timestamp.</p>
+          <span class="record-ref">Ref: WRS-PRIVATE-ASSET-001</span>
+          <span class="record-ref">Timestamp: 2026-10-18T01:00:00.000Z</span>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <button onclick="viewAssetCertificate('WRS-PRIVATE-ASSET-001', 'WEDDING RAP STYLE — PRIVATE ASSET STUDIO', '2026-10-18T01:00:00.000Z')" class="btn">View Certificate</button>
+            <button onclick="previewAsset('WRS-PRIVATE-ASSET-001', 'WEDDING RAP STYLE — PRIVATE ASSET STUDIO', '2026-10-18T01:00:00.000Z')" class="btn btn-secondary">HTML Code</button>
+          </div>
+        </article>
+
+        <!-- Studio Registry Summary -->
+        <article class="card">
+          <span class="card-badge">Studio Registry</span>
+          <h3>Asset Vault Status</h3>
+          <p>Pure HTML architecture with host Runway &amp; Gemini integrations. Zero lockfile dependencies.</p>
+          <div style="margin-bottom: 1.25rem;">
+            <div class="status-pill"><span class="status-dot"></span> System Status: Online &amp; Operational</div>
+            <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">Runtime: Node.js 22 &bull; Port 3000</div>
+          </div>
+          <button onclick="document.getElementById('runway-form').scrollIntoView({behavior: 'smooth'})" class="btn btn-secondary">Render Visual</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certificate Render Panel -->
+    <section id="cert-panel" class="asset-viewer" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h3 style="color: var(--gold-light);">Vault Asset Record</h3>
+        <button onclick="closeCert()" class="btn btn-secondary" style="padding: 0.35rem 0.8rem; font-size: 0.8rem;">Close</button>
+      </div>
+      <div class="cert-box" id="cert-box-content"></div>
+    </section>
+
+    <!-- Inspection Modal / Viewport -->
+    <section id="inspect-panel" class="asset-viewer" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h3 id="inspect-title" style="color: var(--gold-light);">Asset Inspection</h3>
+        <button onclick="closePreview()" class="btn btn-secondary" style="padding: 0.35rem 0.8rem; font-size: 0.8rem;">Close</button>
+      </div>
+      <div id="inspect-content" class="output-pre" style="max-height: 250px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>WEDDING RAP STYLE — PRIVATE ASSET STUDIO &copy; 2026. Founder: Ervin Remus Radosavlevici.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #71717a;">Pure HTML Architecture &bull; Runway API &bull; Gemini 3.8 &bull; Zero External Lockfile Overhead</p>
+  </footer>
+
+  <script>
+    let lastGeneratedContent = '';
+    let runwayPollTimer = null;
+
+    // Runway API Video Generation
+    async function generateRunwayVideo(e) {
+      e.preventDefault();
+      const model = document.getElementById('runway-model').value;
+      const ratio = document.getElementById('runway-ratio').value;
+      const duration = document.getElementById('runway-duration').value;
+      const promptText = document.getElementById('runway-prompt').value.trim();
+
+      const btn = document.getElementById('runway-btn');
+      const statusLabel = document.getElementById('runway-status-label');
+      const container = document.getElementById('runway-result-container');
+      const progressBar = document.getElementById('runway-progress-bar');
+      const progressText = document.getElementById('runway-progress-text');
+      const videoWrapper = document.getElementById('runway-video-wrapper');
+      const taskTitle = document.getElementById('runway-task-title');
+
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Dispatching to Runway...';
+      statusLabel.innerText = 'Creating video task on host...';
+      container.style.display = 'block';
+      videoWrapper.style.display = 'none';
+      progressBar.style.width = '10%';
+      progressText.innerText = 'Initializing task...';
+      taskTitle.innerText = 'Rendering Cinematic Visual Asset...';
+
+      if (runwayPollTimer) clearInterval(runwayPollTimer);
+
+      try {
+        const res = await fetch('/api/runway/generate-video', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ promptText, ratio, duration, model })
+        });
+
+        const data = await res.json();
+        if (!data.success || !data.taskId) {
+          statusLabel.innerText = data.error || 'Failed to dispatch task.';
+          btn.disabled = false;
+          btn.innerHTML = '<span>Render Runway Visual Asset</span>';
+          return;
+        }
+
+        const taskId = data.taskId;
+        statusLabel.innerText = 'Task ' + taskId.slice(0, 14) + '... running';
+
+        // Poll status every 1.5s
+        runwayPollTimer = setInterval(async () => {
+          try {
+            const statusRes = await fetch('/api/runway/status/' + taskId);
+            const statusData = await statusRes.json();
+
+            if (statusData.status === 'RUNNING' || statusData.status === 'PENDING') {
+              const pct = Math.max(15, Math.round((statusData.progress || 0.2) * 100));
+              progressBar.style.width = pct + '%';
+              progressText.innerText = pct + '% complete (Runway Gen-3 Engine)';
+            } else if (statusData.status === 'SUCCEEDED') {
+              clearInterval(runwayPollTimer);
+              progressBar.style.width = '100%';
+              progressText.innerText = '100% complete! Asset ready.';
+              taskTitle.innerText = 'Cinematic Motion Asset Ready';
+              statusLabel.innerText = 'Render complete!';
+
+              const videoUrl = (statusData.output && statusData.output[0]) || '';
+              if (videoUrl) {
+                const player = document.getElementById('runway-video-player');
+                player.src = videoUrl;
+                document.getElementById('runway-download-link').href = videoUrl;
+                videoWrapper.style.display = 'block';
+                videoWrapper.scrollIntoView({ behavior: 'smooth' });
+              }
+
+              btn.disabled = false;
+              btn.innerHTML = '<span>Render Runway Visual Asset</span>';
+            } else if (statusData.status === 'FAILED') {
+              clearInterval(runwayPollTimer);
+              progressText.innerText = 'Generation failed: ' + (statusData.failure || 'Unknown error');
+              statusLabel.innerText = 'Failed.';
+              btn.disabled = false;
+              btn.innerHTML = '<span>Render Runway Visual Asset</span>';
+            }
+          } catch (pollErr) {
+            console.error('Polling error:', pollErr);
+          }
+        }, 1500);
+
+      } catch (err) {
+        console.error(err);
+        statusLabel.innerText = 'Network error contacting server.';
+        btn.disabled = false;
+        btn.innerHTML = '<span>Render Runway Visual Asset</span>';
+      }
+    }
+
+    // Gemini API Rap Composition
+    async function generateWeddingRap(e) {
+      e.preventDefault();
+      const coupleNames = document.getElementById('ai-couple').value.trim();
+      const style = document.getElementById('ai-style').value;
+      const bpm = document.getElementById('ai-bpm').value.trim();
+      const story = document.getElementById('ai-story').value.trim();
+
+      const btn = document.getElementById('ai-submit-btn');
+      const statusText = document.getElementById('ai-status-text');
+      const resultContainer = document.getElementById('ai-result-container');
+      const output = document.getElementById('ai-lyrics-output');
+
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Composing Masterpiece...';
+      statusText.innerText = 'Calling Gemini 3.8 Flash model...';
+
+      try {
+        const res = await fetch('/api/gemini/generate-rap', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ coupleNames, style, bpm, story })
+        });
+
+        const data = await res.json();
+        if (data.success && data.result) {
+          lastGeneratedContent = data.result;
+          output.innerText = data.result;
+          resultContainer.style.display = 'block';
+          resultContainer.scrollIntoView({ behavior: 'smooth' });
+          statusText.innerText = 'Composition complete!';
+        } else {
+          statusText.innerText = data.error || 'Failed to compose. Try again.';
+        }
+      } catch (err) {
+        console.error(err);
+        statusText.innerText = 'Network error contacting server.';
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>Compose Bespoke Wedding Rap</span>';
+      }
+    }
+
+    function copyRapLyrics() {
+      if (!lastGeneratedContent) return;
+      navigator.clipboard.writeText(lastGeneratedContent).then(() => {
+        alert('Lyrics copied to clipboard!');
+      }).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = lastGeneratedContent;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        alert('Lyrics copied to clipboard!');
+      });
+    }
+
+    function exportAsHTML() {
+      if (!lastGeneratedContent) return;
+      const couple = document.getElementById('ai-couple').value.trim() || 'Couple';
+      const cleanName = couple.replace(/[^a-zA-Z0-9]/g, '_');
+      const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>${couple} — Wedding Rap Style Studio Master</title>
+  <style>
+    body { background: #09090c; color: #f4f4f7; font-family: sans-serif; padding: 2rem; max-width: 800px; margin: 0 auto; }
+    .card { background: #121218; border: 1px solid #d4af37; border-radius: 12px; padding: 2rem; }
+    h1 { color: #d4af37; margin-bottom: 0.5rem; }
+    pre { white-space: pre-wrap; font-family: monospace; background: #000; padding: 1.5rem; border-radius: 8px; color: #e2e8f0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>WEDDING RAP STYLE</h1>
+    <p style="color: #f5e7b2; margin-bottom: 1.5rem;">Private Asset Studio &bull; Founder: Ervin Remus Radosavlevici</p>
+    <pre>${lastGeneratedContent}</pre>
+  </div>
+</body>
+</html>`;
+      const blob = new Blob([html], { type: 'text/html' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `WRS_${cleanName}_Master.html`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function viewAssetCertificate(id, project, timestamp) {
+      const panel = document.getElementById('cert-panel');
+      const box = document.getElementById('cert-box-content');
+      box.innerHTML = `
+        <div style="text-align: center; margin-bottom: 1.5rem; border-bottom: 1px solid #27272a; padding-bottom: 1.5rem;">
+          <div style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: #d4af37; margin-bottom: 0.5rem;">Official Vault Certificate</div>
+          <h2 style="font-size: 1.75rem; color: #fff; margin-bottom: 0.25rem;">WEDDING RAP STYLE</h2>
+          <div style="color: #f5e7b2; font-size: 0.95rem;">Private Asset Studio &bull; Founder: Ervin Remus Radosavlevici</div>
+        </div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem;">
+          <tr><th style="padding: 0.75rem 0; color: #9c9ca8; text-transform: uppercase; font-size: 0.8rem; width: 35%; text-align: left;">Project</th><td style="padding: 0.75rem 0; color: #fff;">${project}</td></tr>
+          <tr><th style="padding: 0.75rem 0; color: #9c9ca8; text-transform: uppercase; font-size: 0.8rem; text-align: left;">Asset Reference</th><td style="padding: 0.75rem 0;"><span style="font-family: monospace; background: rgba(212,175,55,0.15); color: #f5e7b2; padding: 0.25rem 0.5rem; border-radius: 4px;">${id}</span></td></tr>
+          <tr><th style="padding: 0.75rem 0; color: #9c9ca8; text-transform: uppercase; font-size: 0.8rem; text-align: left;">Timestamp (UTC)</th><td style="padding: 0.75rem 0;"><span style="font-family: monospace; color: #f5e7b2;">${timestamp}</span></td></tr>
+          <tr><th style="padding: 0.75rem 0; color: #9c9ca8; text-transform: uppercase; font-size: 0.8rem; text-align: left;">Standard</th><td style="padding: 0.75rem 0; color: #4ade80;">Pure HTML Architecture</td></tr>
+        </table>
+        <div style="text-align: center; font-size: 0.8rem; color: #71717a; border-top: 1px solid #27272a; padding-top: 1rem;">
+          Verified and Archived under Founder Ervin Remus Radosavlevici
+        </div>
+      `;
+      panel.style.display = 'block';
+      panel.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function closeCert() {
+      document.getElementById('cert-panel').style.display = 'none';
+    }
+
+    function previewAsset(id, project, timestamp) {
+      const panel = document.getElementById('inspect-panel');
+      const title = document.getElementById('inspect-title');
+      const content = document.getElementById('inspect-content');
+      
+      title.innerText = 'Pure HTML Record: ' + id;
+      content.innerText = 
+`<!DOCTYPE html>
+<!-- WEDDING RAP STYLE — PRIVATE ASSET RECORD -->
+<!-- Founder: Ervin Remus Radosavlevici -->
+<article class="vault-asset">
+  <div class="asset-id">${id}</div>
+  <div class="project">${project}</div>
+  <div class="timestamp">${timestamp}</div>
+  <div class="format">PURE HTML</div>
+  <div class="status">VERIFIED PRIVATE ASSET</div>
+</article>`;
+      panel.style.display = 'block';
+      panel.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function closePreview() {
+      document.getElementById('inspect-panel').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
