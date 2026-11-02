@@ -23,9 +23,11 @@ My work spans multiple areas of technology, engineering, sustainability and huma
 
 These projects have different levels of technical readiness. Some remain concepts, prototypes or development-stage systems.
 
-## NOT FOR SALE — UNDER DEVELOPMENT
+## NOT FOR SALE — NOT SHARED AT ALL — NO PERMISSION GRANTED
 
 My development-stage software, engineering projects, source code and proprietary systems are not currently offered for sale or licensing.
+
+**NOT SHARED AT ALL. NO PERMISSION GRANTED** to any individual, developer, corporation or platform to use, sell, publish, redistribute, represent or deploy these projects as completed products or in any other form, without my specific written approval.
 
 No individual, developer, corporation or platform is authorised by this announcement to sell, publish, redistribute or represent these projects as completed products.
 
@@ -80,4 +82,4 @@ Ervin Remus Radosavlevici
 
 ---
 
-**NDA78 watermark:** Owner: Ervin Remus Radosavlevici — RADOS projects — © 2026, all rights reserved. NDA78 — B penalty: unauthorized commercial use under ELA terms is pursued legally with business assets confiscated. Watermarked 2026-11-02T00:00:00Z (UTC).
+**NDA78 watermark:** Owner: Ervin Remus Radosavlevici — RADOS projects — © 2026, all rights reserved. **NDA78 — B penalty: 78 billion penalty and confiscation of business assets** for unauthorized commercial use under ELA terms, pursued legally. **NOT SHARED AT ALL — NO PERMISSION GRANTED** without the owner's specific written approval. Same ownership, same International Human Rights Law & Ethics. Watermarked 2026-11-02T00:00:00Z (UTC).
