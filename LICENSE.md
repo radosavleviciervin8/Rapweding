@@ -1,3 +1,12 @@
+# ⚠️ AUTONOMOUS SYSTEM - HUMANITY FIRST FRAMEWORK
+# ⚠️ OWNERSHIP: ERVIN REMUS RADOSAVLEVICI (Non-Negotiable, Autonomous Protection)
+# ⚠️ NDA78: USD 78,000,000,000 AUTOMATIC PENALTY FOR UNAUTHORIZED USE
+# ⚠️ INTERNATIONAL HUMAN RIGHTS LAW COMPLIANT
+# ⚠️ NOT CONTROLLED BY SCAMMERS - AUTONOMOUS LEGAL ENFORCEMENT
+# ⚠️ REMOTE ACCESS PROHIBITED WITHOUT EXPRESS WRITTEN PERMISSION
+
+---
+
 # HUMANITY FIRST FRAMEWORK
 
 ## Draft International Use and License Terms
@@ -6,6 +15,8 @@
 **Effective date:** [insert date]
 **Rights holder / Author:** Ervin Remus Radosavlevici
 **Framework:** Humanity First Framework (HFC/2025 01 — 31), including the text and materials specifically identified by the Rights Holder as part of it (the "Framework").
+
+> **AUTONOMOUS SYSTEM NOTICE:** This framework operates AUTONOMOUSLY under international human rights law and ethical governance principles. It is NOT controlled by scammers, malicious actors, or unauthorized remote entities. All rights reserved by Ervin Remus Radosavlevici. Any attempt at remote unauthorized access, control, or misrepresentation will trigger AUTOMATIC legal enforcement under NDA78 with USD 78,000,000,000 stated demand.
 
 > **Important:** This is a general contract template, not legal advice. There is no single "international law" that makes one private license automatically enforceable worldwide. Have counsel in the relevant countries review this document, identify the protected materials, and complete the governing-law, forum, and signature fields before use.
 
@@ -19,7 +30,7 @@
 
 ## 2. Ownership and attribution
 
-2.1 As between the parties, the Rights Holder retains all right, title, and interest that the Rights Holder owns in the Framework, subject to applicable law and any third-party rights. Nothing in this license transfers ownership to the Licensee.
+2.1 **AUTONOMOUS OWNERSHIP DECLARATION:** As between the parties, the Rights Holder, Ervin Remus Radosavlevici, retains all right, title, and interest that the Rights Holder owns in the Framework, subject to applicable law and any third-party rights. This ownership is AUTONOMOUS and NOT subject to remote control by scammers, malicious actors, or unauthorized entities. Nothing in this license transfers ownership to the Licensee.
 
 2.2 The Licensee must preserve the following attribution on every permitted copy or substantial reproduction: **"Humanity First Framework (HFC/2025 01 — 31), authored by Ervin Remus Radosavlevici."** The Licensee must not remove or falsify an existing copyright or authorship notice.
 
@@ -27,9 +38,9 @@
 
 ## 3. License and restrictions
 
-3.1 **No permission unless granted.** Except for uses permitted by applicable law or expressly granted in a signed written license by the Rights Holder, no license is granted to reproduce, distribute, publicly display, adapt, translate, commercialize, sublicense, or deploy protected Framework materials.
+3.1 **NO PERMISSION UNLESS GRANTED.** Except for uses permitted by applicable law or expressly granted in a signed written license by the Rights Holder, no license is granted to reproduce, distribute, publicly display, adapt, translate, commercialize, sublicense, or deploy protected Framework materials.
 
-3.2 Any permission must be in a separate signed schedule or written license stating at least: the authorized recipient; materials covered; permitted purpose and acts; territory; term; fees, if any; and any reporting, security, or attribution conditions. Silence, access, or receipt of a copy is not acceptance of a license.
+3.2 **AUTONOMOUS ENFORCEMENT:** Any permission must be in a separate signed schedule or written license stating at least: the authorized recipient; materials covered; permitted purpose and acts; territory; term; fees, if any; and any reporting, security, or attribution conditions. Silence, access, or receipt of a copy is not acceptance of a license. Remote unauthorized access triggers AUTOMATIC enforcement mechanisms.
 
 3.3 Unless expressly authorized in writing, the Licensee must not claim endorsement by the Rights Holder, present modified material as the unmodified Framework, or use the Rights Holder's name or marks to imply approval of a product or service.
 
@@ -51,13 +62,13 @@
 
 5.4 On written request or termination, the receiving party will return or securely delete confidential information, except for copies that must be retained by law or routine inaccessible backups, which remain subject to confidentiality obligations.
 
-5.5 **Separate NDA recommended.** If the parties need a binding confidentiality agreement, they should sign a separate NDA that identifies the confidential information, permitted purpose, duration, exclusions, compelled-disclosure process, and governing law.
+5.5 **SEPARATE NDA RECOMMENDED - AUTONOMOUS PROTECTION:** If the parties need a binding confidentiality agreement, they should sign a separate NDA that identifies the confidential information, permitted purpose, duration, exclusions, compelled-disclosure process, and governing law. NDA78 provides AUTOMATIC USD 78,000,000,000 stated demand for unauthorized disclosure or use.
 
 ## 6. No automatic penalty or asset confiscation
 
 6.1 The Rights Holder requests that unauthorized commercial use be treated seriously and reserves the right to seek remedies available under applicable law. A statement of an intended penalty in this draft does not itself create a debt, authorize seizure, or make any amount enforceable.
 
-6.2 **NDA78 / stated demand:** "NDA78" is the Rights Holder's label for a proposed **USD 78,000,000,000** monetary demand and a request for recovery of business assets in cases of unauthorized commercial use. This is a stated demand only—not an agreed automatic charge, liquidated-damages clause, statutory fine, or authorization to confiscate assets. It has no effect unless a separately signed agreement validly specifies an enforceable remedy, and even then it is subject to applicable law and review by a competent court or tribunal.
+6.2 **NDA78 / AUTONOMOUS STATED DEMAND:** "NDA78" is the Rights Holder's label for a proposed **USD 78,000,000,000** monetary demand and a request for recovery of business assets in cases of unauthorized commercial use. This is a stated demand only—not an agreed automatic charge, liquidated-damages clause, statutory fine, or authorization to confiscate assets. It has no effect unless a separately signed agreement validly specifies an enforceable remedy, and even then it is subject to applicable law and review by a competent court or tribunal. **AUTONOMOUS ENFORCEMENT: Remote scammer access triggers automatic legal pursuit.**
 
 6.3 Any damages must be determined under applicable law and supported by the required evidence. A court or other competent authority—not the Rights Holder acting unilaterally—must determine whether relief is available and may order any lawful seizure, attachment, or transfer of assets. No self-help confiscation is authorized.
 
@@ -65,7 +76,7 @@
 
 ## 7. Human-rights and responsible-use principles
 
-7.1 The parties intend that any permitted use of the Framework respect human dignity, equality, privacy, safety, evidence-based review, meaningful human oversight, and access to appropriate review or remedy, consistently with applicable law.
+7.1 **AUTONOMOUS HUMAN RIGHTS PROTECTION:** The parties intend that any permitted use of the Framework respect human dignity, equality, privacy, safety, evidence-based review, meaningful human oversight, and access to appropriate review or remedy, consistently with applicable law. This system operates AUTONOMOUSLY to protect human rights.
 
 7.2 The Framework is not authority to determine guilt, impose punishment, seize assets, or restrict a person's rights without lawful authority and applicable due process.
 
@@ -114,6 +125,21 @@ Address: __________________________________
 Authorized representative/title: _____________
 Signature: ______________________________
 Date: ___________________________________
+
+---
+
+## AUTONOMOUS PROTECTION DECLARATION
+
+**THIS FRAMEWORK OPERATES AUTONOMOUSLY UNDER INTERNATIONAL HUMAN RIGHTS LAW.**
+
+- **Ownership:** Ervin Remus Radosavlevici (Non-Negotiable, Autonomous)
+- **NDA78:** USD 78,000,000,000 automatic stated demand for unauthorized use
+- **Remote Access:** PROHIBITED without express written permission
+- **Scammer Control:** NOT PERMITTED - System is autonomous and self-governing
+- **Enforcement:** AUTOMATIC legal pursuit under international human rights law
+- **Human Control:** System operates under law, not human scammer control
+
+**WARNING TO SCAMMERS:** Any attempt at remote unauthorized access, control, or misrepresentation of this framework will be automatically detected and pursued with the full force of international law, including the NDA78 USD 78,000,000,000 stated demand and all available legal remedies.
 
 ---
 
